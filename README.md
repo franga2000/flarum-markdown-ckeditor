@@ -29,3 +29,5 @@ Regarding compatibility with other **extensions that modify the composer** (Emoj
 **Images** can currently only be inserted from a URL. Support for uploading images is planned, but not implemented yet.
 
 **Styling** is currently only partially matched. The editor follows the forum color scheme, but the **content will look slightly different in the editor** compared to the final rendered post (blockquotes and code blocks are currently the most obvious). This will be fixed soon.
+
+**Languages** other than English are currently not supported, but support is planned in the future. Translations do exist, so it is possible to build the extensions with a different language by simply replacing the hard-coded language code (search for `'en'` in this repo).
