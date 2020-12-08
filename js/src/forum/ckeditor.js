@@ -3,6 +3,7 @@ import ClassicEditorBase from '@ckeditor/ckeditor5-editor-classic/src/classicedi
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
+import Code from '@ckeditor/ckeditor5-basic-styles/src/code';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials'
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote'
@@ -32,6 +33,7 @@ MarkdownEditor.builtinPlugins = [
 	Bold,
 	Italic,
 	Underline,
+	Code,
 	CodeBlock,
 	BlockQuote,
 	Heading,
@@ -61,6 +63,7 @@ MarkdownEditor.defaultConfig = {
 			'|',
 			'imageInsert',
 			'blockQuote',
+			'code',
 			'codeBlock',
 			'|',
 			'undo',
